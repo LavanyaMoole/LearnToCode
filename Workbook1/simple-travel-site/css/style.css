@@ -1,0 +1,47 @@
+table, th, td {
+    border: 1px solid cornflowerblue;
+    text-align: center;
+    justify-content: center;
+    table-layout: auto;
+   
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  p{
+    font-family: Arial, Helvetica, sans-serif,serif;
+    /* text-align:center; */
+    font-weight: 400;
+    text-align: left;
+  }
+  img{
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    padding: 30px;
+   
+  }
+  img:hover{
+    /* transition: transform 0.3s ease; */
+    transform: scale(1.2); /* Enlarge the image on hover */
+    opacity: 0.8; /* Reduce opacity on hover (optional) */
+  }
+  body{
+    text-align: center;
+    background-color:darkseagreen;
+  }
+  a{
+   font-size: medium;
+   font-weight: bold;
+   display: inline-block;
+   padding: 20px;
+  
+  }
+  a:hover{
+    color: darkred;
+  }
+  h3{
+    color: crimson;
+    font-weight: bolder;
+  }
